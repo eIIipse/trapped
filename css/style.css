@@ -107,3 +107,38 @@ canvas.locked {
   display: none;
   z-index: 9999;
 }
+
+.mobile-notice {
+  display: none;
+}
+
+@media (max-width: 700px), (hover: none) {
+  .mobile-notice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .mobile-title {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #999999;
+  }
+
+  .mobile-text {
+    font-size: 14px;
+    color: #aaaaaa;
+  }
+
+  .container {
+    display: none;
+  }
+}
