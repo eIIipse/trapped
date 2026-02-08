@@ -37,7 +37,7 @@ html, body {
 }
 
 .brand-tagline {
-  font-size: 12px;
+  font-size: 13px;
   color: #aaaaaa;
   font-style: italic;
   user-select: none;
@@ -77,7 +77,7 @@ canvas {
   top: 12px;
   transform: translateY(-50%);
   color: #888888;
-  font-size: 11px;
+  font-size: 12px;
   white-space: nowrap;
   pointer-events: none;
   transition: opacity 0.2s;
@@ -86,10 +86,10 @@ canvas {
 #roaming-hint {
   position: absolute;
   right: calc(100% + 6px);
-  top: 26px;
+  top: 28px;
   transform: translateY(-50%);
   color: #888888;
-  font-size: 11px;
+  font-size: 12px;
   white-space: nowrap;
   pointer-events: none;
   transition: opacity 0.2s;
