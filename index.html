@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trapped</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="page-layout">
+      <h1 class="brand-title">Trapped</h1>
+      <p class="brand-tagline">Enter at your own risk.</p>
+      <div class="canvas-wrap">
+        <canvas id="maze-canvas"></canvas>
+        <span id="entry-hint">enter →</span>
+        <span id="roaming-hint">Move your cursor into the entrance</span>
+      </div>
+      <div class="brand-footer">
+        <p class="brand-hint">Press ESC if you dare.</p>
+        <p class="brand-copy">© 2025</p>
+      </div>
+    </div>
+  </div>
+  <!-- Roaming cursor: positioned absolutely so it can move anywhere on screen -->
+  <svg id="roaming-cursor" width="16" height="22" viewBox="0 0 12 19" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6.148 18.473 8.011 17.47 9.626 16.631 7.058 11.815H11.39L0.011 0.407V16.422L3.327 13.201Z" fill="#ffffff"/>
+    <path d="M6.431 17 8.196 16.059 5.421 10.857H9.025L1 2.814V14.002L3.53 11.56Z" fill="#000000"/>
+  </svg>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
